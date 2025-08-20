@@ -5,17 +5,17 @@ FROM node:18-alpine
 WORKDIR /app
 
 # Copiar package.json e instalar dependências
-COPY node-app/package*.json ./
-RUN npm install --production
+COPY package*.json ./
+RUN npm install 
 
 # Copiar restante do código
-COPY node-app/ .
+COPY  .
 
 # Criar pasta de logs
 RUN mkdir -p /app/logs
 
 # Expor porta
-EXPOSE 3838
+EXPOSE 8080
 
 # Comando para iniciar
 CMD ["node", "index.js"]
