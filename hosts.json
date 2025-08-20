@@ -1,0 +1,17 @@
+[
+  { "networkName": "Google DNS", "host": "8.8.8.8" },
+  { "networkName": "Cloudflare", "host": "1.1.1.1" },
+  { "networkName": "YouTube", "host": "142.250.190.46" },
+  { "networkName": "Terra", "host": "52.223.36.142" },
+  { "networkName": "UOL", "host": "200.221.2.45" },
+  { "networkName": "Gmail", "host": "142.250.113.83" },
+  { "networkName": "Facebook", "host": "31.13.71.36" },
+  { "networkName": "Netflix", "host": "52.18.216.170" },
+  { "networkName": "Twitter/X", "host": "104.244.42.193" },
+  { "networkName": "Instagram", "host": "31.13.71.174" },
+  { "networkName": "Globo.com", "host": "186.192.90.5" },
+  { "networkName": "LinkedIn", "host": "108.174.10.10" },
+  { "networkName": "WhatsApp", "host": "157.240.22.53" },
+  { "networkName": "Microsoft Outlook", "host": "40.92.168.141" },
+  { "networkName": "Amazon", "host": "54.239.28.85" }
+]
