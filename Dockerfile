@@ -9,13 +9,13 @@ COPY package*.json ./
 RUN npm install 
 
 # Copiar restante do código
-COPY  .
+COPY . .
 
 # Criar pasta de logs
 RUN mkdir -p /app/logs
 
 # Expor porta
-EXPOSE 8080
+EXPOSE 3838
 
 # Comando para iniciar
 CMD ["node", "index.js"]
